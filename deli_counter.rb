@@ -6,9 +6,9 @@ def line(the_line)
   else
     count = 0
     text = "The line is currently:"
-   the_line.each do |number|
+   the_line.each do |name|
       count+=1
-      text+= " #{count}. #{number}"
+      text+= " #{count}. #{name}"
    end
   puts text
  end
